@@ -810,6 +810,7 @@ class Population():
         with_timing : `bool`, optional
             Whether to print messages about the timing, by default True
         """
+        print("environmental awareness")
         if with_timing:
             start = time.time()
             print(f"Run for {self.n_binaries} binaries")
@@ -839,7 +840,7 @@ class Population():
             self.pool = None
 
         if with_timing:
-            print(f"Overall: {time.time() - start:1.1f}s")
+            print(f"Overall: {time.time() - start:1.1f}s!")
 
     def sample_initial_galaxy(self):
         """Sample the initial galactic times, positions and velocities"""
